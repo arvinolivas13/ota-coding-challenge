@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: ota-coding-challenge
+    env: docker
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_KEY
+        value: base64:gzZu6LLQKfIfSZbe9eMiPmDjswZsEgiXuo7oWFjKPGM=
+      - key: APP_URL
+        value: https://ota-coding-challenge.onrender.com
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_HOST
+        value: dpg-d26hmjggjchc73eqndgg-a
+      - key: DB_PORT
+        value: 5432
+      - key: DB_DATABASE
+        value: ota_db
+      - key: DB_USERNAME
+        value: ota_user
+      - key: DB_PASSWORD
+        value: nrNbWcVqvrepvDgkwsUcW5HM7hLO5mpO
+      - key: BROADCAST_DRIVER
+        value: pusher
+      - key: PUSHER_APP_ID
+        value: 2030720
+      - key: PUSHER_APP_KEY
+        value: a3722587842411a24b49
+      - key: PUSHER_APP_SECRET
+        value: d54af9cc584572e70244
+      - key: PUSHER_APP_CLUSTER
+        value: ap1
+      - key: VITE_PUSHER_APP_KEY
+        value: a3722587842411a24b49
+      - key: VITE_PUSHER_APP_CLUSTER
+        value: ap1

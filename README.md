@@ -1,14 +1,4 @@
 
-## 📋 Features
-
-- ✅ Program Management (Medical Missions, Legal Support, Wellness, etc.)
-- ✅ CMS-like blog post system
-- ✅ Responsive frontend design
-- ✅ Admin and public views
-- ✅ Asset bundling using Vite
-
----
-
 ## 🚀 Installation Guide
 
 Follow the steps below to set up the project on your local development environment.
